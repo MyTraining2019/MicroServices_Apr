@@ -77,4 +77,11 @@ INSERT INTO account (account_no, customer_id, ifsc_code, account_type, account_b
 (355680,	556678,	'DBSB244',	'S',	50000,	'2016-01-03',	1),
 (3557230,	556678,	'DBSB294',	'S',	50000,	'2016-11-11',	1);
 
+
+Kill process on specificj port
+=================================
+netstat -ano | findstr :yourPortNumber
+
+taskkill /PID typeyourPIDhere /F
+
 	
