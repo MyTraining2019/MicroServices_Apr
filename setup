@@ -84,4 +84,13 @@ netstat -ano | findstr :yourPortNumber
 
 taskkill /PID typeyourPIDhere /F
 
+
+
+Docker
+======
+Download the boot2docker.iso file manually by going to https://api.github.com/repos/boot2docker/boot2docker/releases/latest then clicking on the html_url and finally choosing to download the file.
+
+Once you get the file go and place it manually in /Users/{user}/.docker/machine/cache/
+
+Finally re-run this command docker-machine create --driver virtualbox default
 	
